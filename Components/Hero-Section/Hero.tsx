@@ -31,9 +31,9 @@ export default function Hero() {
 
         {/* DESCRIPTION */}
         <p className="mt-6 text-lg sm:text-xl md:text-2xl text-slate-300 max-w-3xl leading-relaxed font-light">
-          ⭐ Powering businesses with trusted electrical, lighting, CCTV,
-          telecom, and mechanical systems engineered for long-term performance
-          and uncompromising quality.
+          Powering businesses with trusted electrical, lighting, CCTV, telecom,
+          and mechanical systems engineered for long-term performance and
+          uncompromising quality.
         </p>
 
         {/* BUTTONS */}
