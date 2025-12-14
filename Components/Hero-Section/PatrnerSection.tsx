@@ -75,6 +75,7 @@ export default function PartnersSection() {
                   alt={`${partner.name} logo`}
                   // Use Tailwind for logo sizing/containment
                   className="max-h-12 w-full object-contain "
+                  loading="lazy"
                 />
               </div>
 
@@ -86,6 +87,7 @@ export default function PartnersSection() {
                   src={partner.logo}
                   alt={`${partner.name} logo`}
                   className="relative z-10 w-full h-full object-contain p-4 filter grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500 group-hover:scale-110"
+                  loading="lazy"
                 />
               </div>
 

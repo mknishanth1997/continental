@@ -19,9 +19,13 @@ export default function MainNavbar() {
       <NavbarBrand as={Link} href="/">
         <img
           src="/continental-logo.webp"
-          className="mr-3 h-10 sm:h-12 w-auto"
           alt="CEE Logo"
+          className="mr-3 h-10 sm:h-12 w-auto"
+          width="200"
+          height="56"
+          loading="eager"
         />
+
         <span className="self-center whitespace-nowrap text-xl font-semibold">
           Continental Energy Enterprises
         </span>
