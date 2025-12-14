@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @import "flowbite";
+html {
+  /* This is the magic line for smooth scrolling */
+  scroll-behavior: smooth;
+}

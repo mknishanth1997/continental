@@ -38,7 +38,8 @@ const steps = [
 
 export default function ExecutionProcessSection() {
   return (
-    <section className="w-full bg-slate-50 py-24 px-6">
+    // **CHANGE: Changed from bg-slate-50 to bg-white to alternate the section color.**
+    <section id="services" className="w-full bg-white py-24 px-6">
       <div className="max-w-7xl mx-auto border-t border-slate-200 pt-24">
         {/* SECTION HEADER */}
         <div className="mb-16 max-w-3xl">

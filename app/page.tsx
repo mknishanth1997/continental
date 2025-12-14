@@ -1,5 +1,7 @@
 import AboutSection from "@/Components/Hero-Section/About";
+import ContactInfoSection from "@/Components/Hero-Section/ContactUsSection";
 import ExecutionProcessSection from "@/Components/Hero-Section/ExecutionProcessSection";
+import { FooterComp } from "@/Components/Hero-Section/Footer";
 import Hero from "@/Components/Hero-Section/Hero";
 import PartnersSection from "@/Components/Hero-Section/PatrnerSection";
 import SolutionsSection from "@/Components/Hero-Section/ProductListing";
@@ -13,6 +15,8 @@ export default function Home() {
       <SolutionsSection></SolutionsSection>
       <ExecutionProcessSection></ExecutionProcessSection>
       <PartnersSection></PartnersSection>
+      <ContactInfoSection></ContactInfoSection>
+      <FooterComp></FooterComp>
     </>
   );
 }

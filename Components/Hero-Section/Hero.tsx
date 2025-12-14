@@ -2,7 +2,10 @@
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center px-6 py-20 sm:py-28 overflow-hidden bg-[#0b1120]">
+    <section
+      id="home"
+      className="relative w-full min-h-screen flex items-center justify-center px-6 py-20 sm:py-28 overflow-hidden bg-[#0b1120]"
+    >
       {/* Background Image Layer */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-40"

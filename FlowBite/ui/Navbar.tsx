@@ -11,7 +11,11 @@ import Link from "next/link";
 
 export default function MainNavbar() {
   return (
-    <Navbar fluid rounded className="bg-blue-900 text-white shadow-md">
+    <Navbar
+      fluid
+      rounded
+      className="sticky top-0 z-50 !bg-slate-900/95 text-white backdrop-blur border-b border-white/10"
+    >
       <NavbarBrand as={Link} href="/">
         <img
           src="/continental-logo.webp"
@@ -26,7 +30,7 @@ export default function MainNavbar() {
       <NavbarToggle />
 
       <NavbarCollapse>
-        <NavbarLink as={Link} href="/" active>
+        <NavbarLink as={Link} href="#home" active>
           Home
         </NavbarLink>
         <NavbarLink as={Link} href="#about">

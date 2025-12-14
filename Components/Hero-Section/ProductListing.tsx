@@ -62,7 +62,8 @@ export default function SolutionsSection() {
   ];
 
   return (
-    <section className="w-full bg-slate-50 py-24 px-6">
+    // **CHANGE: Changed from bg-slate-50 to bg-slate-100 for a more distinct, yet subtle, separation.**
+    <section id="solutions" className="w-full bg-slate-100 py-24 px-6">
       <div className="max-w-7xl mx-auto border-t border-slate-200 pt-16">
         {/* SECTION HEADER */}
         <div className="mb-16 max-w-3xl">

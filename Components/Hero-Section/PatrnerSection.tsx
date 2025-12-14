@@ -2,23 +2,23 @@
 
 export default function PartnersSection() {
   const partners = [
-    { name: "Philips", logo: "/Partner-Brand-logo/schneider.png" },
-    { name: "Jaquar", logo: "/Partner-Brand-logo/polycab.svg" },
-    { name: "Luker", logo: "/Partner-Brand-logo/schmersal.png" },
-    { name: "White Teak", logo: "/Partner-Brand-logo/jaquar.png" },
-    { name: "White Teak", logo: "/Partner-Brand-logo/philips.jpg" },
+    { name: "Schneider Electric", logo: "/Partner-Brand-logo/schneider.png" },
+    { name: "Polycab", logo: "/Partner-Brand-logo/polycab.svg" },
+    { name: "Schmersal", logo: "/Partner-Brand-logo/schmersal.png" },
+    { name: "Jaquar", logo: "/Partner-Brand-logo/jaquar.png" },
+    { name: "Philips", logo: "/Partner-Brand-logo/philips.jpg" },
     { name: "White Teak", logo: "/Partner-Brand-logo/whiteTeak.jpeg" },
-    { name: "White Teak", logo: "/Partner-Brand-logo/cpplus.png" },
-    { name: "White Teak", logo: "/Partner-Brand-logo/matrix.png" },
-
-    { name: "White Teak", logo: "/Partner-Brand-logo/tele.svg" },
-    { name: "White Teak", logo: "/Partner-Brand-logo/lg.png" },
-    { name: "White Teak", logo: "/Partner-Brand-logo/samsung.png" },
-    { name: "White Teak", logo: "/Partner-Brand-logo/dwyer.svg" },
+    { name: "CP Plus", logo: "/Partner-Brand-logo/cpplus.png" },
+    { name: "Matrix", logo: "/Partner-Brand-logo/matrix.png" },
+    { name: "Telemecanique", logo: "/Partner-Brand-logo/tele.svg" },
+    { name: "LG", logo: "/Partner-Brand-logo/lg.png" },
+    { name: "Samsung", logo: "/Partner-Brand-logo/samsung.png" },
+    { name: "dwyer", logo: "/Partner-Brand-logo/dwyer.svg" },
   ];
 
   return (
-    <section className="relative w-full bg-slate-50 py-16 md:py-20 px-4 md:px-6 overflow-hidden">
+    // **CHANGE: Changed from bg-slate-50 to bg-slate-100 to alternate the section color.**
+    <section className="relative w-full bg-slate-100 py-16 md:py-20 px-4 md:px-6 overflow-hidden">
       {/* Background pattern — desktop only */}
       <div className="absolute inset-0 opacity-30 hidden md:block">
         <div
